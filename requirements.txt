@@ -8,3 +8,10 @@ groq
 seaborn
 wordcloud
 nltk
+torch
+transformers
+datasets
+huggingface_hub
+peft
+bitsandbytes
+trl

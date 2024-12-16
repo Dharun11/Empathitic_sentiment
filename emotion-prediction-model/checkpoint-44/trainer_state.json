@@ -1,0 +1,55 @@
+{
+  "best_metric": 0.011361940763890743,
+  "best_model_checkpoint": "emotion-prediction-model\\checkpoint-44",
+  "epoch": 0.9943502824858758,
+  "eval_steps": 500,
+  "global_step": 44,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.4519774011299435,
+      "grad_norm": 0.3479269742965698,
+      "learning_rate": 0.0001898305084745763,
+      "loss": 0.1124,
+      "step": 20
+    },
+    {
+      "epoch": 0.903954802259887,
+      "grad_norm": 0.03562217950820923,
+      "learning_rate": 0.00015593220338983051,
+      "loss": 0.0223,
+      "step": 40
+    },
+    {
+      "epoch": 0.9943502824858758,
+      "eval_loss": 0.011361940763890743,
+      "eval_runtime": 35.922,
+      "eval_samples_per_second": 4.9,
+      "eval_steps_per_second": 1.225,
+      "step": 44
+    }
+  ],
+  "logging_steps": 20,
+  "max_steps": 132,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 3,
+  "save_steps": 500,
+  "stateful_callbacks": {
+    "TrainerControl": {
+      "args": {
+        "should_epoch_stop": false,
+        "should_evaluate": false,
+        "should_log": false,
+        "should_save": true,
+        "should_training_stop": false
+      },
+      "attributes": {}
+    }
+  },
+  "total_flos": 4497139015090176.0,
+  "train_batch_size": 4,
+  "trial_name": null,
+  "trial_params": null
+}
