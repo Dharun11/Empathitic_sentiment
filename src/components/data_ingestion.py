@@ -1,12 +1,13 @@
 import pandas as pd
 from datasets import Dataset,load_dataset
-from src.logger import logging
+import logging 
+from logger import logging
 from src.exception import CustomException
 import sys
 class Ingect_data:
-    def __init__(self, data_path:str, model_id:str="TinyLlama/TinyLlama-1.1B-Chat-v1.0"):
+    def __init__(self, data_path:str, ):
         self.data_path=data_path
-        self.model_id=model_id
+        
         
     def load_custom_data(self)-> tuple:
         logging.info("Entered into loading custom data")
