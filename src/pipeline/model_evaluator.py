@@ -1,3 +1,6 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
 import torch
 import pandas as pd
 import numpy as np
@@ -11,7 +14,7 @@ from transformers import AutoModelForSequenceClassification, AutoTokenizer
 import matplotlib.pyplot as plt
 import seaborn as sns
 from src.logger import logging
-
+from src.utils import generate_report
 class LLMResponseEvaluator:
     def __init__(self, 
                  model_path: str, 
@@ -149,8 +152,9 @@ class LLMResponseEvaluator:
         2. Precision: Ratio of correct positive predictions
         3. Recall: Proportion of actual positives correctly identified
         4. F1 Score: Harmonic mean of precision and recall
-        """
         
+        """
+        generate_report(report)
         return report
     
     def error_analysis(self) -> Dict[str, List[str]]:
