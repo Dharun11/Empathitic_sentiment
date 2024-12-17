@@ -141,11 +141,7 @@ class LLMResponseEvaluator:
         return report
     
     def error_analysis(self) -> Dict[str, List[str]]:
-        """
-        Perform error analysis
         
-        :return: Dictionary of misclassified examples
-        """
         misclassified = {
             'true_label': [],
             'predicted_label': [],
