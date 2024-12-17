@@ -42,7 +42,7 @@ class ModelInference:
                            top_p: float = 0.95) -> str:
         
         try:
-            # Prepare input
+            
             inputs = self.tokenizer(
                 prompt, 
                 return_tensors="pt", 
@@ -64,7 +64,7 @@ class ModelInference:
                     no_repeat_ngram_size=2
                 )
             
-            # Decode response
+           
             response = self.tokenizer.decode(outputs[0], skip_special_tokens=True)
             
             return response
@@ -80,10 +80,10 @@ class ModelInference:
         
         while True:
             try:
-                # Get user input
+                
                 user_input = input("\nEnter your prompt (or 'exit' to quit): ")
                 
-                # Checking  for exit condition
+               
                 if user_input.lower() == 'exit':
                     self.logger.info("Exiting interactive mode.")
                     break
