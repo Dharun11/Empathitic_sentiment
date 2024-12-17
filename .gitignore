@@ -8,6 +8,7 @@ __pycache__/
 myenv/
 .env 
 
+.Documentation for Empathetic Sentiment Analysis Using TinyLlama-1.1B
 
 # Distribution / packaging
 .Python
