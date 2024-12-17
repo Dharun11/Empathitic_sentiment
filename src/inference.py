@@ -3,6 +3,8 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 import argparse
 import logging
 from src.logger import logging
+import streamlit as st
+import re
 
 class ModelInference:
     def __init__(self, 
@@ -73,7 +75,7 @@ class ModelInference:
             self.logger.error(f"Error generating response: {e}")
             return "I'm sorry, I couldn't generate a response."
     
-    def interactive_mode(self):
+    def interactive_mode(self,user_input):
         # Creating a chat type inference ...
         self.logger.info("Starting interactive inference mode...")
         self.logger.info("Type 'exit' to quit the interaction.")
@@ -81,7 +83,7 @@ class ModelInference:
         while True:
             try:
                 
-                user_input = input("\nEnter your prompt (or 'exit' to quit): ")
+                #user_input = input("\nEnter your prompt (or 'exit' to quit): ")
                 
                
                 if user_input.lower() == 'exit':
@@ -108,6 +110,7 @@ def main():
         inference.interactive_mode()
     except Exception as e:
         print(f"An error occurred: {e}")
+       
        
 
 if __name__ == "__main__":
