@@ -10,6 +10,7 @@ from sklearn.metrics import (
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
 import matplotlib.pyplot as plt
 import seaborn as sns
+from src.logger import logging
 
 class LLMResponseEvaluator:
     def __init__(self, 
@@ -35,14 +36,8 @@ class LLMResponseEvaluator:
         self.test_data = pd.read_csv(test_data_path)
         
     def preprocess_text(self, text: str) -> str:
-        """
-        Preprocess input text
         
-        :param text: Input text
-        :return: Cleaned text
-        """
-        # Basic text cleaning
-        
+        logging.info("Getting into preprocess data..........")
         text = text.lower().strip()
         return text
     
@@ -55,7 +50,7 @@ class LLMResponseEvaluator:
         """
         # Preprocess text
         cleaned_text = self.preprocess_text(text)
-        
+        logging.info("Getting into predict_emotion ..........")
         # Tokenize input
         inputs = self.tokenizer(
             cleaned_text, 
@@ -73,19 +68,15 @@ class LLMResponseEvaluator:
         # Map back to original label
         emotion_labels = self.test_data['emotion_label'].unique()
         predicted_emotion = emotion_labels[predicted_class.item()]
-        
+        logging.info("Successfully predicted results..........")
         return predicted_emotion
     
     def evaluate_model(self) -> Dict[str, Any]:
-        """
-        Comprehensive model evaluation
         
-        :return: Dictionary of evaluation metrics
-        """
         # Prepare ground truth and predictions
         true_labels = []
         predicted_labels = []
-        
+        logging.info("Getting into evaluate  data..........")
         # Iterate through test data
         for _, row in self.test_data.iterrows():
             # Use full text for prediction
@@ -107,7 +98,7 @@ class LLMResponseEvaluator:
         # Generate confusion matrix
         cm = confusion_matrix(true_labels, predicted_labels, 
                                labels=list(np.unique(true_labels)))
-        
+        logging.info("Sucessfully evaluated the data..........")
         return {
             'accuracy': accuracy,
             'precision': precision,
@@ -117,12 +108,7 @@ class LLMResponseEvaluator:
         }
     
     def visualize_confusion_matrix(self, cm: np.ndarray, labels: List[str]):
-        """
-        Visualize confusion matrix
         
-        :param cm: Confusion matrix
-        :param labels: Emotion labels
-        """
         plt.figure(figsize=(10, 8))
         sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', 
                     xticklabels=labels, yticklabels=labels)
