@@ -4,7 +4,6 @@ pandas
 python-dotenv
 matplotlib
 scikit-learn
-groq
 seaborn
 wordcloud
 nltk
