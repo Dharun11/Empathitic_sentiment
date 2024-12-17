@@ -22,7 +22,6 @@ This project requires the following Python libraries:
 - `datasets`
 - `logging`
 - `re`
-- `argparse`
   
 To install the required dependencies, use the following command:
 
