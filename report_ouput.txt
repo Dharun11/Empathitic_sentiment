@@ -1,0 +1,15 @@
+Model Evaluation Report
+        ======================
+        Accuracy: 0.0900
+        Precision: 0.0201
+        Recall: 0.0900
+        F1 Score: 0.0322
+
+        Confusion Matrix:
+        - Visualized and saved as 'confusion_matrix.png'
+
+        Interpretation Notes:
+        1. Accuracy: Overall correct predictions
+        2. Precision: Ratio of correct positive predictions
+        3. Recall: Proportion of actual positives correctly identified
+        4. F1 Score: Harmonic mean of precision and recall

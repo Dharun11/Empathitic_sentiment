@@ -1,6 +1,4 @@
-import sys
-import os
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
+
 import torch
 import pandas as pd
 import numpy as np
@@ -178,6 +176,7 @@ class LLMResponseEvaluator:
                 misclassified['true_label'].append(true_emotion)
                 misclassified['predicted_label'].append(predicted_emotion)
                 misclassified['text'].append(full_text)
+        
         
         return misclassified
 
