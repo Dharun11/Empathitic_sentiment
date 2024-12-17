@@ -83,7 +83,7 @@ class ModelInference:
                 # Get user input
                 user_input = input("\nEnter your prompt (or 'exit' to quit): ")
                 
-                # Check for exit condition
+                # Checking  for exit condition
                 if user_input.lower() == 'exit':
                     self.logger.info("Exiting interactive mode.")
                     break
