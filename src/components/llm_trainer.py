@@ -49,7 +49,7 @@ class ModelTrainer:
             model = AutoModelForCausalLM.from_pretrained(
                 self.model_id, 
                 quantization_config=bnb_config, 
-                device_map={'': 0},  # Explicitly map to first GPU
+                device_map={'': 0},  
                 torch_dtype=torch.bfloat16,
                 trust_remote_code=True
             )
@@ -57,7 +57,7 @@ class ModelTrainer:
             model.resize_token_embeddings(len(tokenizer))
             model = prepare_model_for_kbit_training(model)
             logging.info("finished loading the model using gpu")
-            # LoRA configuration for emotion prediction fine-tuning
+            
             
             logging.info("Configuring peft......")
             peft_config = LoraConfig(
@@ -69,7 +69,7 @@ class ModelTrainer:
             )
             model = get_peft_model(model, peft_config)
             
-            # Training arguments optimized for local GPU
+           
             training_args = TrainingArguments(
                 output_dir="emotion-prediction-model",
                 per_device_train_batch_size=4   ,
@@ -81,18 +81,18 @@ class ModelTrainer:
                 fp16=True,
                 warmup_ratio=0.1,
                 lr_scheduler_type="linear",
-                num_train_epochs=2,  # Increased epochs for better learning
+                num_train_epochs=2,  
                 save_strategy="epoch",
                 evaluation_strategy="epoch",
                 load_best_model_at_end=True,
                 report_to="none"
             )
             
-            # Trainer setup
+            
             trainer = SFTTrainer(
                 model=model,
                 train_dataset=self.train_dataset,
-                eval_dataset=self.eval_dataset,  # Add evaluation dataset
+                eval_dataset=self.eval_dataset,  
                 dataset_text_field="text",
                 max_seq_length=1024,
                 tokenizer=tokenizer,
