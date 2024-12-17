@@ -72,7 +72,7 @@ class ModelTrainer:
             # Training arguments optimized for local GPU
             training_args = TrainingArguments(
                 output_dir="emotion-prediction-model",
-                per_device_train_batch_size=4,
+                per_device_train_batch_size=4   ,
                 per_device_eval_batch_size=4,
                 gradient_accumulation_steps=4,
                 optim="adamw_torch",

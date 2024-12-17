@@ -2,6 +2,7 @@ import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 import argparse
 import logging
+from src.logger import logging
 
 class ModelInference:
     def __init__(self, 
