@@ -2,6 +2,7 @@ from src.logger import logging
 from src.exception import CustomException
 from src.components.data_ingestion import Ingect_data
 from src.components.llm_trainer import ModelTrainer
+from src.model_evalutor import LLMResponseEvaluator
 import sys
 
 
@@ -14,6 +15,7 @@ if __name__=="__main__":
         train_dataset,eval_dataset=data_ingestion_obj.load_custom_data()
         logging.info("Sucessfully received the train and evaluation datset from data ingestion....... .....")
         
+        
         logging.info("Entering into model trainer..............")
         model_trainer_obj=ModelTrainer(train_dataset,eval_dataset)
         model,tokenizer=model_trainer_obj.train_model()
@@ -21,6 +23,9 @@ if __name__=="__main__":
         
         
         logging.info("Sucessfully trained the model..............")
+        
+        
+        
     except Exception as e:
         raise CustomException(e,sys)
         

@@ -1,0 +1,201 @@
+situation_text,emotion_label,user_queries,agent_responses,text_length
+i remember going to the fireworks with my best friend there was a lot of people but it only felt like us in the world,sentimental,"i remember going to see the fireworks with my best friend it was the first time we ever spent time alone together although there was a lot of people we felt like the only people in the world
+agent ",was this a friend you were in love with or just a best friend,117
+i remember going to the fireworks with my best friend there was a lot of people but it only felt like us in the world,sentimental,"this was a best friend i miss her
+agent ",where has she gone,117
+i remember going to the fireworks with my best friend there was a lot of people but it only felt like us in the world,sentimental,"we no longer talk
+agent ",oh was this something that happened because of an argument,117
+i remember going to the fireworks with my best friend there was a lot of people but it only felt like us in the world,sentimental,"was this a friend you were in love with or just a best friend
+agent ",this was a best friend i miss her,117
+i remember going to the fireworks with my best friend there was a lot of people but it only felt like us in the world,sentimental,"where has she gone
+agent ",we no longer talk,117
+ i used to scare for darkness,afraid,"it feels like hitting to blank wall when i see the darkness
+agent ",oh ya i dont really see how,29
+ i used to scare for darkness,afraid,"dont you feel so its a wonder 
+agent ",i do actually hit blank walls a lot of times but i get by,29
+ i used to scare for darkness,afraid,"i virtually thought so and i used to get sweatings
+agent ",wait what are sweatings,29
+ i used to scare for darkness,afraid,"oh ya i dont really see how
+agent ",dont you feel so its a wonder ,29
+ i used to scare for darkness,afraid,"i do actually hit blank walls a lot of times but i get by
+agent ", i virtually thought so and i used to get sweatings,29
+i showed a guy how to run a good bead in welding class and he caught on quick,proud,"hi how are you doing today
+agent ",doing good how about you,77
+i showed a guy how to run a good bead in welding class and he caught on quick,proud,"im good trying to understand how someone can feel like hitting a blank wall when they see the darkness
+agent ",its quite strange that you didnt imagine it,77
+i showed a guy how to run a good bead in welding class and he caught on quick,proud,"doing good how about you
+agent ",im good trying to understand how someone can feel like hitting a blank wall when they see the darkness,77
+i showed a guy how to run a good bead in welding class and he caught on quick,proud,"its quite strange that you didnt imagine it
+agent ",i dont imagine feeling a lot maybe your on to something,77
+i have always been loyal to my wife,faithful,"i have never cheated on my wife
+agent ",and thats something you should never do good on you ,35
+i have always been loyal to my wife,faithful,"yea it hasnt been easy but i am proud i havent
+agent ",what do you mean it hasnt been easy how close have you come to cheating ,35
+i have always been loyal to my wife,faithful,"and thats something you should never do good on you 
+agent ",yea it hasnt been easy but i am proud i havent,35
+a recent job interview that i had made me feel very anxious because i felt like i didnt come prepared,terrified,"job interviews always make me sweat bullets makes me uncomfortable in general to be looked at under a microscope like that 
+agent ",dont be nervous just be prepared,101
+a recent job interview that i had made me feel very anxious because i felt like i didnt come prepared,terrified,"i feel like getting prepared and then having a curve ball thrown at you throws you off 
+agent ",yes but if you stay calm it will be ok,101
+a recent job interview that i had made me feel very anxious because i felt like i didnt come prepared,terrified,"dont be nervous just be prepared
+agent ",i feel like getting prepared and then having a curve ball thrown at you throws you off ,101
+a recent job interview that i had made me feel very anxious because i felt like i didnt come prepared,terrified,"yes but if you stay calm it will be ok
+agent ",its hard to stay clam how do you do it ,101
+i am very happy to have been first over 300 students during this years at my enginering school,joyful,"hi this year i was the first over 300 students at my enginering school
+agent ",sounds great so whats your major,94
+i am very happy to have been first over 300 students during this years at my enginering school,joyful,"it is computer science i am very happy of this achievement and my family is very proud
+agent ",well pleased you should be having brainsmanthats a tough coursei hear,94
+i am very happy to have been first over 300 students during this years at my enginering school,joyful,"sounds great so whats your major
+agent ",it is computer science i am very happy of this achievement and my family is very proud,94
+i once lost my job and got mad,angry,"i lost my job last year and got really angry
+agent ",i am sorry to hear that did it happen out of the blue,30
+i once lost my job and got mad,angry,"yes it was a complete surprise
+agent ",i am sorry to hear that i hope it turned out to be a blessing in decise,30
+i once lost my job and got mad,angry,"i am sorry to hear that did it happen out of the blue
+agent ",yes it was a complete surprise,30
+one year during christmas i did not get a single gift it was a rough day for me,sad,"during christmas a few years ago i did not get any presents
+agent ",wow that must be terrible i cannot imagine i lvoe christmas,79
+one year during christmas i did not get a single gift it was a rough day for me,sad,"since that day christmas has not been a good time for me as i have no family christmas is always the worst
+agent ",wow i am sorry to hear that i wish i could make it a better holiday for you,79
+one year during christmas i did not get a single gift it was a rough day for me,sad,"wow that must be terrible i cannot imagine i lvoe christmas
+agent ",since that day christmas has not been a good time for me as i have no family christmas is always the worst,79
+one year during christmas i did not get a single gift it was a rough day for me,sad,"wow i am sorry to hear that i wish i could make it a better holiday for you
+agent ",some days are just days that you never forget i wish you could as well,79
+i was at work and my coworker was called into my bosses office then they were allowed to work remotely every monday this made me jealous because i enjoy working from home,jealous,"my coworker is allowed to work remotely but i am not
+agent ",i work remotely i wish that you could do something like that as well,170
+i was at work and my coworker was called into my bosses office then they were allowed to work remotely every monday this made me jealous because i enjoy working from home,jealous,"i do too it is unfortnuate because unbiased i am our best performer so it is curious
+agent ",sometimes in life it is not about performance some people just get a shiner spoon,170
+i was at work and my coworker was called into my bosses office then they were allowed to work remotely every monday this made me jealous because i enjoy working from home,jealous,"i work remotely i wish that you could do something like that as well
+agent ",i do too it is unfortnuate because unbiased i am our best performer so it is curious,170
+i went to a park and i set on a bench i didnt notice that my wallet felt a man came to me from behind giving me back my wallet,grateful,"hi i went to a park and i set on a bench i didnt notice that my wallet felt a man came to me from behind giving me back my wallet
+agent ",thats a sweet man i hope you acknowledged his kind gesture ,126
+i went to a park and i set on a bench i didnt notice that my wallet felt a man came to me from behind giving me back my wallet,grateful,"yes i did i was so grateful because i have a lot of money in my wallet
+agent ",their arent that many well rounded people in the world these days so when you see one you should always show appreciation ,126
+i went to a park and i set on a bench i didnt notice that my wallet felt a man came to me from behind giving me back my wallet,grateful,"thats a sweet man i hope you acknowledged his kind gesture 
+agent ",yes i did i was so grateful because i have a lot of money in my wallet,126
+i got recently got three rejection letters for 3 different jobs in a matter of a week and a half that was a painful experience ,sad,"people get rejected all the time but it shouldnt be an excuse to let it dissuade you from reaching your goals
+agent ",what happened,127
+i got recently got three rejection letters for 3 different jobs in a matter of a week and a half that was a painful experience ,sad,"got rejected from a place i wanted to work not once but three times 
+agent ",i am sorry to hear that i hope you find a better opportunity did you know why they rejected you,127
+i got recently got three rejection letters for 3 different jobs in a matter of a week and a half that was a painful experience ,sad,"what happened
+agent ",got rejected from a place i wanted to work not once but three times ,127
+i got recently got three rejection letters for 3 different jobs in a matter of a week and a half that was a painful experience ,sad,"i am sorry to hear that i hope you find a better opportunity did you know why they rejected you
+agent ",thanks they gave me the same generic lines you always hear ,127
+i had my entire house boarded up when the hurricane came,prepared,"i had to board my entire house when the hurricane was coming
+agent ",wow did it do any damage,56
+i had my entire house boarded up when the hurricane came,prepared,"no luckily the house was ok
+agent ",that is great i would have been scared to death was it recent,56
+i had my entire house boarded up when the hurricane came,prepared,"wow did it do any damage
+agent ",no luckily the house was ok,56
+one time when i was in preschool i had to write on the board when i got up my pants fell down in front of the class that embarassed me,embarrassed,"once when i was in preschool my pants fell down in front of the whole class i was so embarassed
+agent ",haha yeah that would be very bad ,134
+one time when i was in preschool i had to write on the board when i got up my pants fell down in front of the class that embarassed me,embarrassed,"it was i almost cried cause everyone was laughing at me
+agent ",oh no  sorry to hear that happened to you ,134
+one time when i was in preschool i had to write on the board when i got up my pants fell down in front of the class that embarassed me,embarrassed,"haha yeah that would be very bad 
+agent ",it was i almost cried cause everyone was laughing at me,134
+i am so upset and mad i cant believe what has happened,angry,"i never thought things would go like this
+agent ",what happened for you to feel that way,54
+i am so upset and mad i cant believe what has happened,angry,"i was at the beach and a hurricane changed track and was coming straight at us my boyfriend didnt want to leave because we were on the second day only of our vacation
+agent ",oh that does sound terrible what did you guys decide to do,54
+i am so upset and mad i cant believe what has happened,angry,"what happened for you to feel that way
+agent ",i was at the beach and a hurricane changed track and was coming straight at us my boyfriend didnt want to leave because we were on the second day only of our vacation,54
+i am so upset and mad i cant believe what has happened,angry,"oh that does sound terrible what did you guys decide to do
+agent ",well we ended up leaving i was too scared to stay and was really upset,54
+last year a tree fell on my house while my family was at home the tree broke through the ceiling just a few feet away from my daughter the experience was terrifying,afraid,"what a difference a year makes last year one evening my family was at home when a tree fell on the house and broke through the ceiling
+agent ",thats very scary i hope no one got hurt,164
+last year a tree fell on my house while my family was at home the tree broke through the ceiling just a few feet away from my daughter the experience was terrifying,afraid,"we were ok though the tree broke through only a few feet away from my daughter
+agent ",so happy everyone was fine everything else can be fixed,164
+last year a tree fell on my house while my family was at home the tree broke through the ceiling just a few feet away from my daughter the experience was terrifying,afraid,"indeed we were out of the house for five months while repairs were being done but now the house is better than ever
+agent ",so good to hear might want to trim some trees lol,164
+last year a tree fell on my house while my family was at home the tree broke through the ceiling just a few feet away from my daughter the experience was terrifying,afraid,"thats very scary i hope no one got hurt
+agent ",we were ok though the tree broke through only a few feet away from my daughter,164
+last year a tree fell on my house while my family was at home the tree broke through the ceiling just a few feet away from my daughter the experience was terrifying,afraid,"so happy everyone was fine everything else can be fixed
+agent ",indeed we were out of the house for five months while repairs were being done but now the house is better than ever,164
+last week i was watching the world cup and watched croatia win from russia,excited,"so last week we were watching the world cup and lo and behold croatia beat the host country russia
+agent ",i saw that game they won on penalty kicks,74
+last week i was watching the world cup and watched croatia win from russia,excited,"yes both countries were not about to let each other win
+agent ",it was very tense the other game with england and sweden was not nearly as nervewracking,74
+last week i was watching the world cup and watched croatia win from russia,excited,"i saw that game they won on penalty kicks
+agent ",yes both countries were not about to let each other win,74
+last week i was watching the world cup and watched croatia win from russia,excited,"it was very tense the other game with england and sweden was not nearly as nervewracking
+agent ",youre right i prefer nervewrecking matches when both teams are great the tension really builds,74
+i have someone always asking me questions about how to use mobile,annoyed,"hi i have a co work always asking me questions about how to use her mobile it is almost always the same questions
+agent ",it must be so frustrating to have to answer the same thing over and over is she older,65
+i have someone always asking me questions about how to use mobile,annoyed,"yes she is she is telling that all the cell phone that she has been using have deleting her contacts
+agent ",my aunt does the same thing i think what she is doing is accidentally deleting texts and she doesnt understand how to check her contacts list what do you think is happening with your coworker,65
+i have someone always asking me questions about how to use mobile,annoyed,"it must be so frustrating to have to answer the same thing over and over is she older
+agent ",yes she is she is telling that all the cell phone that she has been using have deleting her contacts,65
+i spent all weekend working on my truck to fix a miss in the engine despite spending over 200 in parts it didnt do a thing to fix the miss,angry,"i worked on my truck all weekend spent 215 on parts and a special tool still did not fix the miss in the engine
+agent ",what is the problem with the engine,138
+i spent all weekend working on my truck to fix a miss in the engine despite spending over 200 in parts it didnt do a thing to fix the miss,angry,"it has a miss sometimes when you are driving it sputters and jerks and barely has any power other times it drives just fine i have replaced so many things on it and nothing makes a difference for very long
+agent ",sorry to hear that i hope you find what is the problem with the engine,138
+i spent all weekend working on my truck to fix a miss in the engine despite spending over 200 in parts it didnt do a thing to fix the miss,angry,"what is the problem with the engine
+agent ",it has a miss sometimes when you are driving it sputters and jerks and barely has any power other times it drives just fine i have replaced so many things on it and nothing makes a difference for very long,138
+a few years ago my marriage broke up and i found myself living alone for the first time in my life though i eventually grew accustomed to the solitude it took a while to get used to it,lonely,"i found myself divorced a few years ago and for the first time in my life i was living alone
+agent ",i felt sad and depressed due to my insecurities and felt rejected from society,184
+a few years ago my marriage broke up and i found myself living alone for the first time in my life though i eventually grew accustomed to the solitude it took a while to get used to it,lonely,"yes i felt that way for a while but then i grew used to the solitude
+agent ",the problem is i dont think you can grew out of my specific insecurity,184
+a few years ago my marriage broke up and i found myself living alone for the first time in my life though i eventually grew accustomed to the solitude it took a while to get used to it,lonely,"i felt sad and depressed due to my insecurities and felt rejected from society
+agent ",yes i felt that way for a while but then i grew used to the solitude,184
+i felt proud when i had accomplished a dream that i wanted to do for a long time ,proud,"i felt proud when i had accomplished a dream that i wanted to do for a long time it was absailing
+agent ",im not familiar with abseiling but im glad that you felt good about it,81
+i felt proud when i had accomplished a dream that i wanted to do for a long time ,proud,"absailing its when you rappeling down a building what have you down that amazing
+agent ",oh i see no ive never done that,81
+i felt proud when i had accomplished a dream that i wanted to do for a long time ,proud,"im not familiar with abseiling but im glad that you felt good about it
+agent ",absailing its when you rappeling down a building what have you down that amazing,81
+i felt proud when i had accomplished a dream that i wanted to do for a long time ,proud,"oh i see no ive never done that
+agent ",so what have you done,81
+when i spend time with my father outside by the fire when we are camping,sentimental,"hello
+agent ",hello i am in such a good mood since i got my new home,72
+when i spend time with my father outside by the fire when we are camping,sentimental,"funny  we just built a house where we used to go camping when i was a kid 
+agent ",i have a ton of backyard space that we have plans for camping would be a fun one,72
+when i spend time with my father outside by the fire when we are camping,sentimental,"thats wonderful do you have any plans to have a fire 
+agent ",i want to look in to getting a nice fire pit for the house,72
+when i spend time with my father outside by the fire when we are camping,sentimental,"hello i am in such a good mood since i got my new home
+agent ",funny  we just built a house where we used to go camping when i was a kid ,72
+when i spend time with my father outside by the fire when we are camping,sentimental,"i have a ton of backyard space that we have plans for camping would be a fun one
+agent ",thats wonderful do you have any plans to have a fire ,72
+i was so happy when i moved in to my new home my girlfriend and i have been saving for awhile and we finally got the keys last month now we can finally move on with our life plans,joyful,"planning out my new home has turned out to be a blast
+agent ",what kind of house are you building ,179
+i was so happy when i moved in to my new home my girlfriend and i have been saving for awhile and we finally got the keys last month now we can finally move on with our life plans,joyful,"i just moved in so it is already built just working on planning out decorating and appliances and such
+agent ",that sounds great what are you most excited for ,179
+i was so happy when i moved in to my new home my girlfriend and i have been saving for awhile and we finally got the keys last month now we can finally move on with our life plans,joyful,"what kind of house are you building 
+agent ",i just moved in so it is already built just working on planning out decorating and appliances and such,179
+i was so happy when i moved in to my new home my girlfriend and i have been saving for awhile and we finally got the keys last month now we can finally move on with our life plans,joyful,"that sounds great what are you most excited for 
+agent ",i think i am most excited for all the space i have i can have friends over and not feel cramped,179
+i went to a party and it was real bad ,ashamed,"i never took a drink before and my friends were all over me to take a drink
+agent ",why did you feel guilty for taking a drink,38
+i went to a party and it was real bad ,ashamed,"it was not my thing and the moment i took i did wrong later in the night i started feeling bad
+agent ",i can understand i am not a big drinker myself but i wouldnt feel guilty about it  not unless you promised someone you wouldnt drink,38
+i went to a party and it was real bad ,ashamed,"yeah i did to my mum and dadwhen i started vomiting i mess my dress and mum knew 
+agent ",oh yea i can understand that then well i am sure you learned your lesson right,38
+i went to a party and it was real bad ,ashamed,"why did you feel guilty for taking a drink
+agent ",it was not my thing and the moment i took i did wrong later in the night i started feeling bad,38
+i went to a party and it was real bad ,ashamed,"i can understand i am not a big drinker myself but i wouldnt feel guilty about it  not unless you promised someone you wouldnt drink
+agent ",yeah i did to my mum and dadwhen i started vomiting i mess my dress and mum knew ,38
+i went to a party and it was real bad ,ashamed,"oh yea i can understand that then well i am sure you learned your lesson right
+agent ",yeah badanyway byethanks for the chat ,38
+after learning my husband of only 4 weeks was cheating on me i did the same to him not only was it before our marriage but i had found texts of him contacting her for sex after to make it worse i slept with a close family friend of his,guilty,"i was only married for 4 weeks when i learned my husband was having an affair and ongoing after the wedding i got him back by sleeping with a close family friend i felt guilty and ashamed because it was out of character
+agent ",yeah that sounds really sad i am sorry for what you went through ,235
+after learning my husband of only 4 weeks was cheating on me i did the same to him not only was it before our marriage but i had found texts of him contacting her for sex after to make it worse i slept with a close family friend of his,guilty,"well i choose to stay and work it out but i never told him it has been 3 years
+agent ",yeah maybe that was a good decision that you made ,235
+after learning my husband of only 4 weeks was cheating on me i did the same to him not only was it before our marriage but i had found texts of him contacting her for sex after to make it worse i slept with a close family friend of his,guilty,"yeah that sounds really sad i am sorry for what you went through 
+agent ",well i choose to stay and work it out but i never told him it has been 3 years,235
+after learning my husband of only 4 weeks was cheating on me i did the same to him not only was it before our marriage but i had found texts of him contacting her for sex after to make it worse i slept with a close family friend of his,guilty,"yeah maybe that was a good decision that you made 
+agent ",well i thought i would be feel better but because i am not the cheating kind i still feel guilty,235
+when i was younger my parents picked me up from work with a new car which really surprised me i was so excited to have my own car,surprised,"when i was working my first job my parents picked me up in my new car i was very surprised i thought i was gonna have to buy my own car
+agent ",wow that was so awesome of them,129
+when i was younger my parents picked me up from work with a new car which really surprised me i was so excited to have my own car,surprised,"yeah it really was i am still very thankful of them
+agent ",i had to buy my first car and it wasnt until i was 21 that i could afford it ,129
+when i was younger my parents picked me up from work with a new car which really surprised me i was so excited to have my own car,surprised,"wow that was so awesome of them
+agent ",yeah it really was i am still very thankful of them,129
+i get wistful remembering my high school days,nostalgic,"im nearing 40 and i find myself thinking a lot about my teen years and early twenties the friends i had then and the fun we had
+agent ",that is where i am still at i am scared i will have regrets when i get older,45
+i get wistful remembering my high school days,nostalgic,"i don
+agent ",that is good i am glad you have no regrets,45
+i get wistful remembering my high school days,nostalgic,"that is where i am still at i am scared i will have regrets when i get older
+agent ",i don,45
+last year i placed an article in an academic journal this was the first time in a while that i had been able to do this and it made me feel better about myself,confident,"a year ago i spent a lot of time doing research for an article then a top journal accepted it for publication
+agent ",what was the topic,159
+last year i placed an article in an academic journal this was the first time in a while that i had been able to do this and it made me feel better about myself,confident,"it was about the medieval poet geoffrey chaucer
+agent ",im not familiar with him where is he from,159
