@@ -18,22 +18,16 @@ class LLMResponseEvaluator:
                  model_path: str, 
                  tokenizer_path: str, 
                  test_data_path: str):
-        """
-        Initialize the LLM Response Evaluator
         
-        :param model_path: Path to the trained model
-        :param tokenizer_path: Path to the tokenizer
-        :param test_data_path: Path to the test dataset
-        """
         self.model_path = model_path
         self.tokenizer_path = tokenizer_path
         self.test_data_path = test_data_path
         
-        # Load model and tokenizer
+        
         self.model = AutoModelForSequenceClassification.from_pretrained(model_path)
         self.tokenizer = AutoTokenizer.from_pretrained(tokenizer_path)
         
-        # Load test data
+       
         self.test_data = pd.read_csv(test_data_path)
         
     def preprocess_text(self, text: str) -> str:
@@ -43,16 +37,11 @@ class LLMResponseEvaluator:
         return text
     
     def predict_emotion(self, text: str) -> str:
-        """
-        Predict emotion for given text
         
-        :param text: Input text
-        :return: Predicted emotion
-        """
-        # Preprocess text
+        
         cleaned_text = self.preprocess_text(text)
         logging.info("Getting into predict_emotion ..........")
-        # Tokenize input
+        
         inputs = self.tokenizer(
             cleaned_text, 
             return_tensors="pt", 
@@ -60,13 +49,13 @@ class LLMResponseEvaluator:
             padding=True
         )
         
-        # Get prediction
+        
         with torch.no_grad():
             outputs = self.model(**inputs)
             predictions = torch.softmax(outputs.logits, dim=1)
             predicted_class = torch.argmax(predictions, dim=1)
         
-        # Map back to original label
+       
         emotion_labels = self.test_data['emotion_label'].unique()
         predicted_emotion = emotion_labels[predicted_class.item()]
         logging.info("Successfully predicted results..........")
@@ -74,29 +63,29 @@ class LLMResponseEvaluator:
     
     def evaluate_model(self) -> Dict[str, Any]:
         
-        # Prepare ground truth and predictions
+        
         true_labels = []
         predicted_labels = []
         logging.info("Getting into evaluate  data..........")
-        # Iterate through test data
+       
         for _, row in self.test_data.iterrows():
-            # Use full text for prediction
+           
             full_text = f"{row['situation_text']} {row['user_queries']} {row['agent_responses']}"
             
-            # Predict emotion
+            
             predicted_emotion = self.predict_emotion(full_text)
             true_emotion = row['emotion_label']
             
             true_labels.append(true_emotion)
             predicted_labels.append(predicted_emotion)
         
-        # Calculate metrics
+       
         accuracy = accuracy_score(true_labels, predicted_labels)
         precision, recall, f1, _ = precision_recall_fscore_support(
             true_labels, predicted_labels, average='weighted'
         )
         
-        # Generate confusion matrix
+        
         cm = confusion_matrix(true_labels, predicted_labels, 
                                labels=list(np.unique(true_labels)))
         logging.info("Sucessfully evaluated the data..........")
@@ -121,19 +110,15 @@ class LLMResponseEvaluator:
         plt.close()
     
     def generate_classification_report(self) -> str:
-        """
-        Generate detailed classification report
         
-        :return: Formatted classification report
-        """
-        # Evaluate model
+
         metrics = self.evaluate_model()
         
-        # Visualize confusion matrix
+
         unique_labels = list(np.unique(self.test_data['emotion_label']))
         self.visualize_confusion_matrix(metrics['confusion_matrix'], unique_labels)
         
-        # Compile report
+
         report = f"""
         Model Evaluation Report
         ======================
@@ -181,12 +166,12 @@ class LLMResponseEvaluator:
         return misclassified
 
 def main():
-    # Paths - adjust these to match your project structure
+
     model_path = 'model_ft/emotion_prediction_model'
     tokenizer_path = 'TinyLlama/TinyLlama-1.1B-Chat-v1.0'
     test_data_path = 'Data/test.csv'
     
-    # Initialize evaluator
+    
     evaluator = LLMResponseEvaluator(
         model_path=model_path,
         tokenizer_path=tokenizer_path,
@@ -194,11 +179,11 @@ def main():
     )
     
     try:
-        # Generate classification report
+
         report = evaluator.generate_classification_report()
         print(report)
         
-        # Perform error analysis
+
         misclassified = evaluator.error_analysis()
         print("\nMisclassified Examples:")
         for true, pred, text in zip(
