@@ -2,7 +2,7 @@ from src.logger import logging
 from src.exception import CustomException
 from src.components.data_ingestion import Ingect_data
 from src.components.llm_trainer import ModelTrainer
-from src.model_evalutor import LLMResponseEvaluator
+from src.model_evaluator import LLMResponseEvaluator
 import sys
 
 
