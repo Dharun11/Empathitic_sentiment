@@ -74,7 +74,7 @@ class ModelInference:
         except Exception as e:
             self.logger.error(f"Error generating response: {e}")
             return "I'm sorry, I couldn't generate a response."
-    
+    '''
     def interactive_mode(self,user_input):
         # Creating a chat type inference ...
         self.logger.info("Starting interactive inference mode...")
@@ -100,17 +100,22 @@ class ModelInference:
                 break
             except Exception as e:
                 self.logger.error(f"An error occurred: {e}")
-
+'''
 def main():
-    
+    st.title("Empathetic Sentiment Analysis Model")
+    st.write("Interact with the model to get empathetic responses to your input.")
     inference = ModelInference()
     
-    try:
+    while True:
+        user_input = st.text_area("Enter your prompt:", "", height=150)
+        if st.button("Generate Response"):
+            if user_input:
+                response = inference.generate_response(user_input)
+                st.subheader("Model Response:")
+                st.write(response)
+            else:
+                st.error("Please enter a prompt.")
         
-        inference.interactive_mode()
-    except Exception as e:
-        print(f"An error occurred: {e}")
-       
        
 
 if __name__ == "__main__":
